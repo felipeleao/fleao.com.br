@@ -3,6 +3,7 @@
 	set in other .css files
 */
 @import url(http://fonts.googleapis.com/css?family=Raleway:200,400);
+@import url(http://fonts.googleapis.com/css?family=Lobster);
 
 html{
 	height: 100%;
@@ -11,13 +12,36 @@ html{
 body {
 	background-image: url(../images/texture.png);
 	text-align: center;
-	box-shadow: inset 0 0 50px rgba(0,0,0,.50);
+	box-shadow: inset 0 0 50px rgba(0,0,0,.70);
 	min-height: 100%;
 }
 
 h1, h2, h3, h4 {
 	font-family: 'Raleway', sans-serif;
-    font-weight: 300;
+  font-weight: 300;
+}
+
+.jumbotron h1{
+	color: #555;
+	font-family: 'Lobster', cursive;
+	/*text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.05);
+		*/
+}
+
+h2{
+	color: #396673;
+	font-weight: bold;
 }
 
 p {
@@ -25,29 +49,61 @@ p {
 }
 
 li {
-    display: inline-block; 
+  display: inline-block;
 	zoom: 1;
 	*display: inline;
 }
 
-.container{
 
+/*------------------------------------------------------*/
+/*	Defining the optional margin-top for the jumbotron	*/
+/*	The style is used depending on the browser width  	*/
+/*------------------------------------------------------*/
+@media (min-width: 768px){
+	.extra-margin{
+		margin-top: 50px;
+	}
 }
 
-.buttons > ul{
+@media (min-width: 992px){
+	.extra-margin{
+		margin-top: 80px;
+	}
+}
+
+@media (min-width: 1200px){
+	.extra-margin{
+		margin-top: 100px;
+	}
+}
+
+
+@media (min-width: 1600px){
+	.extra-margin{
+		margin-top: 200px;
+	}
+}
+
+/*------------------------------------------------------*/
+
+
+
+.network-buttons > ul{
 	padding-right: 40px;
 }
 
 .navbar-static-top {
 	margin-bottom: 19px;
 	border-bottom: 2px solid #444;
+	box-shadow: 0 0 50px rgba(0,0,0,.50);
 }
 
 .navbar-brand{
 	font-weight: bold;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Lobster', cursive;
+	font-size: 180%;
 }
 
-.v-center {
-    height:100%;
+.hr-dashed{
+	border: 1px dashed #aaa;
 }
