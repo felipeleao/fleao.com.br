@@ -29,7 +29,7 @@
   </head>
 
   <body>
-    
+
     <div id="wrap">
       <!-- Static navbar -->
       <div class="navbar navbar-default navbar-static-top" role="navigation">
@@ -41,7 +41,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="<?= APPLICATION_ROOT; ?>">Super User</a>
+            <a class="navbar-brand" href="<?= APPLICATION_ROOT; ?>">Felipe Le&atilde;o</a>
           </div>
           <div class="navbar-collapse collapse">
 
