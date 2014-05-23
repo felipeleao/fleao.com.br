@@ -420,7 +420,8 @@
             <div class="row">
               <div class="col-md-2"><p>Citation</p></div>
               <div class="col-md-10">
-                <p class="small">MOREIRA, A., LEÃO, F., LOPES, S., FARIA, F., AZEVEDO,L., BPEL: Principais Conceitos e Uso Prático”. Relatórios Técnicos do DIA/UNIRIO (RelaTe-DIA), RT-0011/2011, 2011. </p>
+                <p class="small">MOREIRA, A., LEÃO, F., LOPES, S., FARIA, F., AZEVEDO,L., BPEL: Principais Conceitos e Uso Prático”.
+                  Relatórios Técnicos do DIA/UNIRIO (RelaTe-DIA), RT-0011/2011, 2011. </p>
               </div>
             </div>
             <div class="row">
@@ -457,7 +458,8 @@
               <div class="row">
                 <div class="col-md-2"><p>Citation</p></div>
                 <div class="col-md-10">
-                  <p class="small">LEÃO, F., AZEVEDO, L., FARIA, F., BAIÃO, F., CAPPELLI, C. "Propagação de Identidade em Aplicações em Três Camadas". Relatórios Técnicos do DIA/UNIRIO (RelaTe-DIA), RT-0007/2012, 2011. </p>
+                  <p class="small">LEÃO, F., AZEVEDO, L., FARIA, F., BAIÃO, F., CAPPELLI, C. "Propagação de Identidade em Aplicações em
+                    Três Camadas". Relatórios Técnicos do DIA/UNIRIO (RelaTe-DIA), RT-0007/2012, 2011. </p>
                 </div>
               </div>
               <div class="row">
