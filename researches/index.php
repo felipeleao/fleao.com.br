@@ -20,15 +20,15 @@
 
     <h3>Table of Contents</h3>
     <ol>
-      <li><a href="#">Automatically Learning Well-founded Ontologies through NLP</a> <span class="ongoing">(ongoing)</span></li>
-      <li><a href="#">Knowledge Models Mining</a></li>
-      <li><a href="#">ORION - A Framework for Ontology Refinement through Theory Revision Techniques</a></li>
-      <li><a href="#">Data Access Control through Identity Propagation</a></li>
+      <li><a href="#OntologyLearning">Automatically Learning Well-founded Ontologies through NLP</a> <span class="ongoing">(ongoing)</span></li>
+      <li><a href="#ModelMining">Knowledge Models Mining</a></li>
+      <li><a href="#Orion">ORION - A Framework for Ontology Refinement through Theory Revision Techniques</a></li>
+      <li><a href="#PropId">Data Access Control through Identity Propagation</a></li>
     </ol>
 
     <div id="push"></div>
 
-    <h2>Automatically Learning Well-founded Ontologies through NLP <span class="ongoing">(ongoing)</span></h2>
+    <h2><a name="OntologyLearning"></a>Automatically Learning Well-founded Ontologies through NLP <span class="ongoing">(ongoing)</span></h2>
     <p>This project is currently under development and aims at defining a method to automatically build well-founded ontologies. These are a
     class of ontologies modeled based on well-founded modelling languages, which are based on Foundational Ontologies (a.k.a Upper
     Ontologies or Top-Level Ontologies). Examples of Foundational Ontologies are:</p>
@@ -51,16 +51,39 @@
 
     <div id="push"></div>
 
-    <h2>Knowledge Models Mining</h2>
+
+
+
+
+
+
+
+
+    <h2><a name="ModelMining"></a>Knowledge Models Mining</h2>
 
     <div id="push"></div>
 
-    <h2>ORION - A Framework for Ontology Refinement through Theory Revision Techniques</h2>
+
+
+
+
+
+
+
+
+    <h2><a name="Orion"></a>ORION - A Framework for Ontology Refinement through Theory Revision Techniques</h2>
     <img src="<?=IMAGES_ROOT?>/ORION.png" class="img-responsive"/>
 
     <div id="push"></div>
 
-    <h2>Data Access Control through Identity Propagation</h2>
+
+
+
+
+
+
+
+    <h2><a name="PropId"></a>Data Access Control through Identity Propagation</h2>
     <img src="<?=IMAGES_ROOT?>/IdentityPropagation.png" class="img-responsive"/>
 
 
