@@ -114,7 +114,6 @@ hr{
 
 
 
-
 /*----------------------------------------------------------*/
 /*	Defining the optional margins for full content pages	*/
 /*----------------------------------------------------------*/
@@ -134,14 +133,36 @@ hr{
 	font-size: 110%;
 }
 
+.full-page-content > img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #666;
+	background-color: #FFF;
+	max-width: 80%;
+}
 
+.full-page-content > h2{
+	color: #666;
+	font-weight: normal;
+	border-bottom: 2px dashed #aaa;
+}
 
 
 @media (max-width: 767px){
 	.full-page-content{
 		padding: 15px;
 	}
+
+	.full-page-content > img{
+		max-width: 100%;
+	}
+
+	.full-page-content > h2{
+		font-size: 140%;
+	}
 }
+
 
 
 /*----------------------------------------------------------*/
@@ -151,21 +172,15 @@ hr{
 	font-weight: bold;
 }
 
-.full-page-content > h2{
-	color: #666;
-	font-weight: normal;
-	border-bottom: 2px dashed #aaa;
-}
-
 .full-page-content  h3{
 	color: #396673;
 	font-weight: normal;
 }
 
 .full-page-content > p{
-	text-indent: 15px;
+	text-indent: 20px;
+	text-align: justify;
 }
-
 
 .jumbotron h1{
 	color: #555;
@@ -178,7 +193,7 @@ hr{
 }
 
 .network-buttons > ul > li {
- 	display: inline-block;
+	display: inline-block;
 	zoom: 1;
 	*display: inline;
 }
@@ -210,11 +225,4 @@ hr{
 
 .authors{
 	font-style:italic
-}
-
-.full-page-content > img{
-	padding: 20px 100px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto
 }
