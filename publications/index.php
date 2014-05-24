@@ -49,7 +49,10 @@
         </div>
         <div class="row">
           <div class="col-md-2"><p class="publication-info-title">Download</p></div>
-          <div class="col-md-10 publication-downlod"><a href="#">link to ACM</a></div>
+          <div class="col-md-10 publication-downlod">
+            <a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6726448">IEEE</a>,
+            <a href="http://www.researchgate.net/publication/258094329_Learning_Well-Founded_Ontologies_through_Word_Sense_Disambiguation/file/9c960526e8abe7bdd3.pdf">PDF</a>
+          </div>
         </div>
       </section>
 
@@ -91,7 +94,9 @@
         </div>
         <div class="row">
           <div class="col-md-2"><p class="publication-info-title">Download</p></div>
-          <div class="col-md-10 publication-downlod"><a href="#">link to ACM</a></div>
+          <div class="col-md-10 publication-downlod">
+            <a href="http://www.lbd.dcc.ufmg.br/bdbcomp/servlet/Trabalho?id=19313">BDBComp</a>
+          </div>
         </div>
       </section>
 
@@ -130,7 +135,9 @@
         </div>
         <div class="row">
           <div class="col-md-2"><p class="publication-info-title">Download</p></div>
-          <div class="col-md-10 publication-downlod"><a href="#">link to ACM</a></div>
+          <div class="col-md-10 publication-downlod">
+              <a href="http://www.lbd.dcc.ufmg.br/bdbcomp/servlet/Trabalho?id=18824">BDBComp</a>
+          </div>
         </div>
       </section>
 
@@ -167,10 +174,6 @@
             <p class="small">LEÃO, F. ; AZEVEDO, L. ; BAIAO, F. ; CAPELLI, C. “Enforcing Authorization Rules in Information Systems Using Identity Propagation and Role-Based Access Control Mechanisms”. In: IADIS Applied Computing 2011, Rio de Janeiro, RJ, 2011. Proceedings of IADIS International Conference IADIS Applied Computing 2011 </p>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-2"><p class="publication-info-title">Download</p></div>
-          <div class="col-md-10 publication-downlod"><a href="#">link to ACM</a></div>
-        </div>
       </section>
 
 
@@ -206,7 +209,9 @@
         </div>
         <div class="row">
           <div class="col-md-2"><p class="publication-info-title">Download</p></div>
-          <div class="col-md-10 publication-downlod"><a href="#">link to ACM</a></div>
+          <div class="col-md-10 publication-downlod">
+            <a href="http://dimap.ufrn.br/csbc2011/anais/eventos/contents/ENIA/ENIA_Sessao_Poster_Artigo_5_Leao.pdf">PDF</a>
+          </div>
         </div>
       </section>
 
@@ -248,10 +253,6 @@
             <p class="small">LEÃO, F. “ORION: Um Framework para Revisão de Ontologias através de Técnicas de Revisão de Teorias”. Monografia de Conclusão de Curso para obtenção do título de Bacharel em Sistemas de Informação. Universidade Federal do Estado do Rio de Janeiro (UNIRIO), Rio de Janeiro, RJ, 2011. </p>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-2"><p class="publication-info-title">Download</p></div>
-          <div class="col-md-10 publication-downlod"><a href="#">link to ACM</a></div>
-        </div>
       </section>
 
 
@@ -290,7 +291,9 @@
         </div>
         <div class="row">
           <div class="col-md-2"><p class="publication-info-title">Download</p></div>
-          <div class="col-md-10 publication-downlod"><a href="#">link to ACM</a></div>
+          <div class="col-md-10 publication-downlod">
+            <a href="http://www.lbd.dcc.ufmg.br/colecoes/sbsi/2011/controledeacesso.pdf">PDF</a>
+          </div>
         </div>
       </section>
 
@@ -330,10 +333,6 @@
           <div class="col-md-10">
             <p class="small">LEÃO, F. ; REVOREDO, K. ; BAIAO, F. “Ontology Refinement Through Theory Revision Techniques”. Proccedings of the III Workshop on Computational Intelligence, 2010, São Bernardo do Campo, SP. Páginas: 482 - 487. </p>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-md-2"><p class="publication-info-title">Download</p></div>
-          <div class="col-md-10 publication-downlod"><a href="#">link to ACM</a></div>
         </div>
       </section>
 
