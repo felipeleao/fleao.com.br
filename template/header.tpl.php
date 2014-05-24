@@ -7,9 +7,14 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-language" content="en">
+    <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Developer, Researcher, Shodan and Surfer Apprentice.">
-    <meta name="author" content="Felipe Leao">
+    <meta name="description" content="Developer, Researcher, Shodan and Surfer Apprentice. This website describes the researches I developed and participated, along with some of my publications.">
+    <meta name="keywords" content="developer, ontology, research, publication, natural language processing, nlp, felipe, unirio, processamento de linguagem natural, ontologia">
+    <meta name="author" content="Felipe Leão">
+    <meta name="robots" content="index,follow">
+
   <link rel="icon" type="image/png" href="<?= IMAGES_ROOT; ?>/favicon.ico">
 
     <title>Felipe Leão</title>
