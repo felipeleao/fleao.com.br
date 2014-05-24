@@ -107,13 +107,26 @@
 
 
     <h2><a name="PropId"></a>Data Access Control through Identity Propagation</h2>
-    <img src="<?=IMAGES_ROOT?>/IdentityPropagation.png" class="img-responsive"/>
+    <p>Information security is one of the main topics currently discussed in organizations. Inside it , aspects of access control,
+    interface control, audit , information flow control, availability , confidentiality and evaluation are treated . In this
+    universe the aspect of control (or authorization) access, responsible for ensuring the integrity presents itself as a central
+    element . And through mechanisms that implement this aspect, such as business rules are guaranteed. Business rules focus on
+    defining the structure of a business or controling their behavior. Particularly, a class of business rules is action authorization
+    assertion, or authorization rule, which restricts who is allowed to perform an action in the organization and what information
+    should such action be allowed to access/alter.</p>
+    <p>In many distributed architecture scenarios  currently available for information systems, where the layers (client application,
+    application server, data access component, database server) are implemented in independent components and allocated to different
+    processing units, the main mechanisms for access control implementation is identity propagation between such layers and the
+    application of authorization rules. These mechanisms count on the user identity to determine the level of access to the data
+    and determine available operations over such data.</p>
+    <p>This project aims at defining an architecture to implement mechanisms for identity propagation and execution of authorization
+      rules, integrating on a simple way (though non-trivial) some of the market leading tools and technologies.</p>
 
 
     <div id="push"></div>
     <hr class="hr-dashed" />
 
-    <p>If you would like further information about the projects described here, please refer to the <a href="<?=SITE_URL;?>/publications">Publications</a> section.</p>
+    <p>If you would like further information about the projects described here, please refer to the <a href="<?= APPLICATION_ROOT; ?>/publications/">Publications</a> section.</p>
 
 
   </div>
