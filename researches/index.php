@@ -60,6 +60,12 @@
 
 
     <h2><a name="ModelMining"></a>Knowledge Models Mining</h2>
+    <p>A research focused on implementing, at a comercial level, proposals for learning knowlege models such as Business Process Models,
+    Ontologies and Mind Maps. The models are learned from texts based on Natural Language Processing Techniques.The project started as a research project at
+    <a target="_blank" href="https://sites.google.com/site/np2tec/">NP2Tec</a> and was later turned into a set of applications at
+    <a target="_blank" href="http://www.se7ti.com.br">Se7Ti</a>. This work derived in the systems
+    <a target="_blank" href="http://www.se7ti.com.br/solucoes/?prod=17">teXplore</a> and
+    <a target="_blank" href="http://www.se7ti.com.br:8080/conti/login">ConTi</a>.</p>
 
     <div id="push"></div>
 
@@ -72,6 +78,23 @@
 
 
     <h2><a name="Orion"></a>ORION - A Framework for Ontology Refinement through Theory Revision Techniques</h2>
+    <p>The usefulness of a domain Ontology depends on the accuracy with which its structure and axioms are able to represent
+    the real world semantics. Given the dynamic nature of several domains, new observations of the real world continuously
+    arise, possibly inconsistent with the domain conceptualization encompassed by the ontology. These observations may
+    trigger the ontology to be revised. However, the manual modification of an ontology is very costly and complex, especially
+    in domains where there is a significant number of observed facts, or where the specification of the required modifications
+    is not trivial to be defined. In these scenarios, a computational support is required to help the ontologist to come up
+    correct and consistent model. The picture below describes the general architecture proposed and impolemented.</p>
+    <ul>
+      <li><strong>Step 1</strong>  - The current ontology, alng with its instances and new facts is submited to ORION and converted to Horn Clauses;</li>
+      <li><strong>Step 2</strong>  - The Horn clause convertion results in a set of three files. The first two contain the current theory and axioms that
+      are represented by the ontology, while the third comprises the positive and negative examples, corresponding to things that the
+      revised theory should be able to represent and restrictions that it should impose to avoid certain false assertions.</li>
+      <li><strong>Step 3</strong>  - The files are submitted to FORTE, a first order theory revision system that outputs a new set of revised axioms that
+      must compose the theory.</li>
+      <li><strong>Step 4</strong>  - The new axioms are used to build a revised version of the original ontology able to accept the new facts as instances
+      and avoid the things that should no longer be accepted as valid instances.</li>
+    </ul>
     <img src="<?=IMAGES_ROOT?>/ORION.png" class="img-responsive"/>
 
     <div id="push"></div>
