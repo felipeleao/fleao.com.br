@@ -34,6 +34,10 @@ hr{
 	border: 1px dashed #aaa;
 }
 
+p.small{
+	padding-top: 10px;
+}
+
 
 /*----------------------------------------------------------*/
 /*	Defining the optional margin-top for the jumbotron		*/
@@ -182,6 +186,12 @@ hr{
 	text-align: justify;
 }
 
+.publication-info-title{
+	font-weight: bold;
+	padding-top: 10px;
+	color: #396673;
+}
+
 .jumbotron h1{
 	color: #555;
 	font-family: 'Lobster', cursive;
@@ -211,8 +221,6 @@ hr{
 }
 
 
-
-
 .floreio{
 	margin-bottom: 20px;
 }
@@ -225,4 +233,8 @@ hr{
 
 .authors{
 	font-style:italic
+}
+
+div.publication-downlod{
+	margin-top: 10px;
 }
