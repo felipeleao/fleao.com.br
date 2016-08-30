@@ -2,7 +2,7 @@
 =====================
 ----------
 
-All the code for my personal homepage. The content comprise personal info, social networks and academic publications.
+All the code for my personal homepage. The content comprises personal info, social networks and academic publications.
 
 
 ## Project structure
